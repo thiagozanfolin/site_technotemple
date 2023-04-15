@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Shojumaru', cursive;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Enriqueta', serif;
+}
+
+header {
+    padding: 36px 0;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 12px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logolist img {
+    height: 25px;
+    margin: 4%;
+    margin-top: 5%;
+}
+
+.logolist li {
+    display: inline;
+    margin-right: 12px;
+}
+
+.logolist li a {
+    text-decoration: none;
+}
+
+section {
+    padding: 24px 220px;
+    text-align: center;
+    margin: auto;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: black;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.insidetemple {
+    margin-right: 40px;
+    width: 100%;
+}
+
+.logoartists img {
+    height: 170px;
+}
+
+.logoartists li {
+    display: inline-block;
+    margin-right: 50px;
+    text-align: center;
+    font-family: 'Shojumaru', cursive;
+    font-size: 82%;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+#contact .container {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+form input,
+textarea,
+form button {
+    display: block;
+    width: 500px;
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+form button {
+    background-color: rgba(0, 0, 0, 0.274);
+    color: black;
+    cursor: pointer;
+    
+}
+
+form button:hover {
+    background: rgba(255, 0, 0, 0.349);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    margin-left: auto;
+    text-align: center;
+}
